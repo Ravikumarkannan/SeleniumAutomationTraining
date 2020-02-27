@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.swagalabs.testscript.HomePageValidation">
+        <methods>
+          <include name="homePageValidation"/>
+        </methods>
+      </class> <!-- com.swagalabs.testscript.HomePageValidation -->
+      <class name="com.swagalabs.testscript.Login">
+        <methods>
+          <include name="invokeBrowser"/>
+        </methods>
+      </class> <!-- com.swagalabs.testscript.Login -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

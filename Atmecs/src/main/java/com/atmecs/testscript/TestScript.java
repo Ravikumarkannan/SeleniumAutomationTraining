@@ -9,24 +9,24 @@ import org.testng.annotations.Test;
 import com.atmecs.pathallocator.PathAllocator;
 import com.atmecs.testbase.Testbase;
 
-public class TestScript extends Testbase{
-	
-	PathAllocator key=new PathAllocator();
-	
+public class TestScript extends Testbase {
+
+	PathAllocator key = new PathAllocator();
 
 	@Test
-	public void navigateToCloudService() {
+	public void anavigateToCloudService() {
 		key.getData();
 		driver.findElement(By.xpath(key.getExplore())).click();
 		driver.findElement(By.xpath(key.getAtmecs_Cloudservice())).click();
 	}
-	
+
 	@Test
-	public void navigateToCareers() {
-		driver.findElement(By.xpath(key.getAtmecsCareers())).click();
+	public void bnavigateToCareers() {
+		driver.findElement(By.linkText(key.getAtmecsCareers())).click();
 	}
+
 	@Test
-	public void returnToHomepage() {
+	public void creturnToHomepage() {
 		driver.findElement(By.xpath(key.getHomePage())).click();
 	}
 }

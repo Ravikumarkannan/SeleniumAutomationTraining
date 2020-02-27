@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-02-27T06:18:10Z" name="Suite" finished-at="2020-02-27T06:18:32Z" duration-ms="22180">
+    <groups>
+    </groups>
+    <test started-at="2020-02-27T06:18:10Z" name="Test" finished-at="2020-02-27T06:18:32Z" duration-ms="22180">
+      <class name="com.swagalabs.testscript.HomePageValidation">
+        <test-method signature="homePageValidation()[pri:0, instance:com.swagalabs.testscript.HomePageValidation@6295d394]" started-at="2020-02-27T11:48:32Z" name="homePageValidation" finished-at="2020-02-27T11:48:32Z" duration-ms="744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageValidation -->
+      </class> <!-- com.swagalabs.testscript.HomePageValidation -->
+      <class name="com.swagalabs.testscript.Login">
+        <test-method is-config="true" signature="invokeBrowser()[pri:0, instance:com.swagalabs.testscript.Login@143640d5]" started-at="2020-02-27T11:48:10Z" name="invokeBrowser" finished-at="2020-02-27T11:48:29Z" duration-ms="18447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method signature="login()[pri:0, instance:com.swagalabs.testscript.Login@143640d5]" started-at="2020-02-27T11:48:29Z" name="login" finished-at="2020-02-27T11:48:32Z" duration-ms="2955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- com.swagalabs.testscript.Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

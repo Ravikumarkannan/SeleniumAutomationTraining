@@ -23,21 +23,21 @@ public class PathAllocator {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		setHomePage();
-		setAtmecs_Cloudservice();
 		setExplore();
+		setAtmecs_Cloudservice();
 		setAtmecsCareers();
+		setHomePage();
 	}
 
-	public String getHomePage() {
-		return homePage;
+	public String getExplore() { // navigate to expore
+		return explore;
 	}
 
-	public void setHomePage() {
-		homePage = property.getProperty("loc.atmecs.home");
+	public void setExplore() {
+		explore = property.getProperty("loc.atmecs.explore");
 	}
 
-	public String getAtmecs_Cloudservice() {
+	public String getAtmecs_Cloudservice() { // navigate to cloud service
 		return atmecs_CloudService;
 	}
 
@@ -45,21 +45,19 @@ public class PathAllocator {
 		atmecs_CloudService = property.getProperty("loc.atmecs.cloudservice");
 	}
 
-	public String getExplore() {
-		return explore;
-	}
-	public void setExplore() {
-		explore=property.getProperty("loc.atmecs.explore");
-	}
-	
-	public String getAtmecsCareers() {
+	public String getAtmecsCareers() { // navigate to careers
 		return atmecs_careers;
 	}
+
 	public void setAtmecsCareers() {
-		atmecs_careers=property.getProperty("loc.atmecs.careers");
+		atmecs_careers = property.getProperty("loc.atmecs.careers");
 	}
-	public static void main(String[] args) throws Exception {
-		PathAllocator path=new PathAllocator();
-		path.getData();
-		}
+
+	public String getHomePage() { // navigate to home page
+		return homePage;
+	}
+
+	public void setHomePage() {
+		homePage = property.getProperty("loc.atmecs.home");
+	}
 }
