@@ -20,5 +20,5 @@ public class ConstantFile {
 	public final static String validation_Home = file_Home + "atmecs.resources" + File.separator + "validationdata";
 	public final static String validation_File= validation_Home;
 	
-	public final static String test = "Ravi kumar";
+	public final static String test = "test name";
 } 
